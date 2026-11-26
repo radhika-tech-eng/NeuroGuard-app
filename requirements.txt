@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+mne
+pyedflib
+xgboost
+shap
+captum
+jupyter
+ipykernel
+pytest
+# Install PyTorch separately from https://pytorch.org/get-started/locally/
+# so you can select the correct CPU/CUDA build for your machine.
