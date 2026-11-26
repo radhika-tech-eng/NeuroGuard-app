@@ -6,7 +6,7 @@ import numpy as np
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.app.inference import predict_windows
+from inference import predict_windows
 from backend.app.reviews.router import router as reviews_router
 
 
