@@ -7,7 +7,7 @@ from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 
 from inference import predict_windows
-from backend.app.reviews.router import router as reviews_router
+from reviews.router import router as reviews_router
 
 
 app = FastAPI(
